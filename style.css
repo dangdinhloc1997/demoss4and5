@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Maiden Orange', sans-serif;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.menu {
+    width: 800px;
+    height: 50px;
+    justify-content: space-between;
+    margin: auto;
+    background-color: rgb(230, 222, 77);
+}
+
+.menu li {
+    display: inline-block;
+    width: 33.33%;
+}
+
+.menu li a {
+    display: inline-block;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: rgb(185, 177, 42);
+}
+
+.menu li a:link {
+    color: aqua;
+}
+
+.menu li a:focus {
+    background-color: rgb(42, 113, 185);
+}
+
+.menu li a:active {
+    color: aqua;
+}
